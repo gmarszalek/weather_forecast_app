@@ -1,0 +1,138 @@
+.scroll-pane {
+    -fx-background-color: #87CEEB;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: #87CEEB;
+}
+
+.scroll-bar {
+    -fx-background-color: #FFFAFA ;
+}
+
+.scroll-bar > .track {
+    -fx-background-color: #C0C0C0;
+}
+
+.scroll-bar > .thumb {
+    -fx-background-color: #FFFAFA ;
+}
+
+.scroll-bar:hover {
+    -fx-cursor: hand;
+}
+
+.scroll-bar > .thumb:hover {
+    -fx-background-color: #FFFAFA;
+}
+
+.scroll-bar > .increment-button, .decrement-button {
+    -fx-background-color: #FFFAFA;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar > .increment-button:hover, .decrement-button:hover {
+    -fx-background-color: #FFFAFA;
+}
+
+.scroll-bar > .increment-button > .increment-arrow, .decrement-button > .decrement-arrow {
+    -fx-background-color: #FFFAFA;
+}
+
+.corner {
+    -fx-background-color: #FFFAFA;
+}
+
+.text-field {
+
+    -fx-text-fill: 	#000000;
+    -fx-font: 14 lato;
+    -fx-border-radius: 5px;
+    -fx-border-color: #D3D3D3;
+}
+
+.text-field:focused {
+    -fx-background-color: #F5FFFA;
+    -fx-border-color: #D3D3D3;
+}
+
+.text-field:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #F5FFFA;
+
+}
+
+.label {
+    -fx-text-fill: #000000;
+    -fx-font: 14 roboto;
+}
+
+.button {
+    -fx-background-color: #A9A9A9;
+    -fx-text-fill: #ffffff;
+    -fx-font: 14 roboto;
+    -fx-width: 45px;
+}
+
+.button:hover {
+    -fx-background-color: #C0C0C0;
+    -fx-cursor: hand;
+}
+
+.list-view {
+    -fx-background-color: #F5FFFA;
+    -fx-control-inner-background: #F5FFFA;
+    -fx-background-insets: 0;
+}
+
+.list-cell {
+    -fx-text-fill: #ffffff;
+    -fx-font: 14 roboto;
+}
+
+.list-cell:selected {
+    -fx-background-color: #F5FFFA;
+    -fx-text-fill: #000000;
+}
+
+.list-cell:hover {
+    -fx-background-color: #F5FFFA;
+    -fx-cursor: hand;
+    -fx-text-fill: #000000;
+}
+
+.list-cell:even {
+    -fx-background-color: #F5FFFA;;
+    -fx-text-fill: #000000;
+}
+
+.list-cell:odd {
+    -fx-background-color: #F5FFFA;
+    -fx-text-fill: #000000;
+}
+
+.separator .line {
+    -fx-border-style: solid;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color:  #F5FFFA;
+}
+#separator2{
+    -fx-border-style: solid;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color:  	#DCDCDC;
+}
+#title{
+     -fx-text-fill: #87CEEB;
+     -fx-font: 24 roboto;
+     -fx-font-weight: bold;
+     -fx-font-style: italic;
+ }
+ #description{
+     -fx-text-fill: #2F4F4F;
+     -fx-font: 14 roboto;
+ }
+ #choice{
+    -fx-text-fill: #2F4F4F;
+    -fx-font: 14 roboto;
+    -fx-font-weight: bold;
+ }

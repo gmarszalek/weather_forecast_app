@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WeatherForecast_GM:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WeatherForecast_GM_jar</output-path>
+    <root id="archive" name="WeatherForecast_GM.jar">
+      <element id="module-output" name="WeatherForecast_GM" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/wtyczki/controlsfx-8.40.14.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/wtyczki/annotations-13.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/wtyczki/gson-2.8.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/wtyczki/okio-1.13.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/wtyczki/okhttp-3.8.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/wtyczki/kotlin-stdlib.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/wtyczki/guava-24.0-jre.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/wtyczki/retrofit-2.3.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/wtyczki/owm-japis-2.5.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/wtyczki/converter-gson-2.3.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/wtyczki/kotlin-stdlib-jre7-1.1.51.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
