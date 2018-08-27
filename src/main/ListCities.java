@@ -21,7 +21,7 @@ public class ListCities {
     private void loadJSONList() throws Exception {
 
         try {
-            InputStream in = this.getClass().getClassLoader().getResourceAsStream("main/city.list.min.json.gz");
+            InputStream in = this.getClass().getClassLoader().getResourceAsStream("main/current.city.list.min.json.gz");
 
             GZIPInputStream gzis = new GZIPInputStream(in);
 

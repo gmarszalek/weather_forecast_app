@@ -241,7 +241,7 @@ public class ControllerFunctions {
 
         int rowIndex = 1;
 
-        for (int j = 1; j <= 4; j++) {
+        for (int j = 1; j <= 5; j++) {
             VBox nextDay = new VBox();
             nextDay.setAlignment(Pos.CENTER);
             nextDay.setSpacing(5);

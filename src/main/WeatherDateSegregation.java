@@ -11,8 +11,6 @@ public class WeatherDateSegregation {
     }
 
     public static int[] setHourIndexes(char decimalHourIndex, char singleHourIndex) {
-        System.out.println("Decimal hourly index: " + decimalHourIndex);
-        System.out.println("Single hourly index: " + singleHourIndex);
 
         if (decimalHourIndex == '0') {
             switch(singleHourIndex) {
@@ -65,20 +63,13 @@ public class WeatherDateSegregation {
 
         String dateFirst = selectedCity.getCurrentDateTime();
         char dateFirstDay =  (dateFirst.charAt(9));
-        System.out.println("Date first " + dateFirst);
-        System.out.println("Date First Day: " + dateFirstDay);
         char dateFirstHourlyDay = getFirstHourlyDate(selectedCity).charAt(9);
-        System.out.println("Get first hourly date " + getFirstHourlyDate(selectedCity));
-        System.out.println("Date firs hourly day: " + dateFirstHourlyDay);
-
 
         int[] hourIndexArray = new int[] {-1, -1, -1, -1};
-        System.out.println("hourly index array przed : " + hourIndexArray);
+
 
         if (isTheSameDay(dateFirstDay, dateFirstHourlyDay)) {
             hourIndexArray = setHourIndexes(getFirstHourlyDate(selectedCity).charAt(11), getFirstHourlyDate(selectedCity).charAt(12));
-            System.out.println("Set hourly index(11): " + getFirstHourlyDate(selectedCity).charAt(11));
-            System.out.println("Set hourly index(12): " + getFirstHourlyDate(selectedCity).charAt(12 ));
 
 
             return hourIndexArray;
